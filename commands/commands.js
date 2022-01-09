@@ -10,7 +10,7 @@ module.exports = {
 
             .setColor('#0099ff')
             .setTitle('Comandos disponíveis')
-            .setDescription('/avatar - Exibe seu avatar\n/meuip - Exibe seu IP local (Apenas você pode ver - Em desenvolvimento)\n/kick - Kicka um usuário do servidor\n/leo - Xinga o Leo gratuitamente\n/limpar - Limpa de 1 a 99 mensagens\n/server - Exibe informações do servidor\n/user-info - Exibe suas informações de usuário');
+            .setDescription('/avatar - Exibe seu avatar\n/kick - Kicka um usuário do servidor\n/leo - Xinga o Leo gratuitamente\n/limpar - Limpa de 1 a 99 mensagens\n/server - Exibe informações do servidor\n/user-info - Exibe suas informações de usuário (Visivel apenas para você)');
 
         return interaction.reply({ embeds: [embed]});
     }
