@@ -3,7 +3,7 @@ const { MessageEmbed } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('user-info')
+		.setName('info')
 		.setDescription('Exibe informações sobre você'),
 	async execute(interaction) {
 		const messageEmbed = new MessageEmbed()

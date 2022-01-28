@@ -5,7 +5,7 @@ module.exports = {
             try {
                 await reaction.fetch()
             } catch (error) {
-                console.error('Alguma coisa está errada quando tento puxara a reação!')
+                console.error('Alguma coisa está errada quando tento puxar a reação!')
                 return
             }
         }
